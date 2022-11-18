@@ -241,16 +241,17 @@ footer .social-media {
     }
 
     .thumbnail li {
-        margin: 1em;
+        margin: 0.5em;
     }
 
-    #typeIt-container {
-        font-size: 1.5em;
+    .thumbnail img {
+        width: 2em;
     }
 
-    #nav-container li {
-        font-size: 0.7em;
+    #typeIt-container, #nav-container li, footer {
+        font-size: 1em;
     }
+
 }
 
 @media screen and (min-width: 1500px) {
