@@ -60,6 +60,16 @@ ul {
     font-weight: 900;
 }
 
+/* typeIt section Styling */
+#typeIt-container {
+    text-align: center;
+    font-size: 2em;
+}
+
+#typeIt-container strong {
+    color: #EA7C69;
+}
+
 /* Thumbnail */
 
 #thumbnail-container {
@@ -67,9 +77,9 @@ ul {
     font-size: 2em;
 }
 
-#thumbnail-container span {
+/* #thumbnail-container span {
     color: #EA7C69;
-}
+} */
 
 .thumbnail {
     justify-content: center;
