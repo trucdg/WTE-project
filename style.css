@@ -30,8 +30,12 @@ ul {
 }
 
 /* Top Navbar (Hamburger menu on screensize <lg) */
+nav .navbar-nav {
+    padding-left: 1em;
+}
+
 nav .nav-link {
-    color: white;
+    font-size: 1.2em;
 }
 
 /* Header */
