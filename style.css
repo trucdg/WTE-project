@@ -220,10 +220,7 @@ footer .social-media {
     font-size: 1.7em;
 }
 
-/* assume media type is all when media type is not specified */
-
-
-@media (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
     .food {
         width: 300px;
         margin: 30px auto;
@@ -238,7 +235,7 @@ footer .social-media {
 
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .header .textBox {
         text-align: center;
     }
@@ -256,8 +253,9 @@ footer .social-media {
     }
 }
 
-@media (min-width: 1500px) {
+@media screen and (min-width: 1500px) {
     #nav-container li {
         font-size: 1.8em;
     }
+
 }
