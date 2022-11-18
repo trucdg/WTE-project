@@ -232,4 +232,14 @@ footer .social-media {
     .thumbnail li {
         margin: 1em;
     }
+
+    #typeIt-container {
+        font-size: 1.5em;
+    }
+
+    #nav-container li {
+        font-size: 0.7em;
+    }
+
+
 }
