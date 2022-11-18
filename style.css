@@ -220,6 +220,19 @@ footer .social-media {
     font-size: 1.7em;
 }
 
+/* Similar styles for internal pages */
+
+.internal-header {
+    text-align: center;
+    background-color: #353550;
+    padding: 2em;
+}
+
+.internal-header span {
+    color: #EA7C69;
+
+}
+
 @media screen and (max-width: 1024px) {
     .food {
         width: 300px;
