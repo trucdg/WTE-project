@@ -29,6 +29,11 @@ ul {
     margin: 20px;
 }
 
+/* Top Navbar (Hamburger menu on screensize <lg) */
+nav .nav-link {
+    color: white;
+}
+
 /* Header */
 .header {
     display: flex;
@@ -100,7 +105,7 @@ ul {
     max-width: 8rem;
 }
 
-/* Navigation bar */
+/* Lower Navigation bar (on screen size >lg)*/
 #nav-container {
     text-align: center;
     margin: auto;
