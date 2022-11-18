@@ -230,7 +230,10 @@ footer .social-media {
 
 .internal-header span {
     color: #EA7C69;
+}
 
+.internal-header .tagline {
+    font-size: 1em;
 }
 
 @media screen and (max-width: 1024px) {
