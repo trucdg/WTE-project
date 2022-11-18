@@ -49,3 +49,35 @@ body {
     color: #EA7C69;
     font-weight: 900;
 }
+
+/* Thumbnail */
+
+#thumbnail-container {
+    text-align: center;
+    font-size: 2em;
+}
+
+#thumbnail-container span {
+    color: #EA7C69;
+}
+
+.thumbnail {
+    justify-content: center;
+    align-items: center;
+}
+
+.thumbnail li {
+    list-style: none;
+    display: inline-block;
+    margin: 1em 2em;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.thumbnail li:hover {
+    transform: translateY(-20px);
+}
+
+.thumbnail li img {
+    max-width: 8rem;
+}
