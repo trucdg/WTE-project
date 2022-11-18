@@ -220,6 +220,8 @@ footer .social-media {
     font-size: 1.7em;
 }
 
+/* assume media type is all when media type is not specified */
+
 
 @media (max-width: 1024px) {
     .food {
@@ -252,6 +254,10 @@ footer .social-media {
     #nav-container li {
         font-size: 0.7em;
     }
+}
 
-
+@media (min-width: 1500px) {
+    #nav-container li {
+        font-size: 1.8em;
+    }
 }
