@@ -131,6 +131,7 @@ nav .nav-link {
 
 #nav-container a {
     color: white;
+    transition: all 0.8s;
 }
 
 /* NavBar Hover Effect */
@@ -170,8 +171,8 @@ nav .nav-link {
     border-right-width: 2px;
 }
 
-#nav-container li:hover {
-    color: #fff;
+#nav-container a:hover {
+    color: #EA7C69;
 }
 
 /* On Hover border color is changed from transparent to the #fff */
