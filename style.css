@@ -207,3 +207,29 @@ footer .social-media {
     padding-left: 10px;
     font-size: 1.7em;
 }
+
+
+@media (max-width: 1024px) {
+    .food {
+        width: 300px;
+        margin: 30px auto;
+    }
+
+    .header .textBox h1 {
+        font-size: 2.5em;
+        Line-height: 1em;
+        font-weight: 500;
+        margin: 25px 0;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .header .textBox {
+        text-align: center;
+    }
+
+    .thumbnail li {
+        margin: 1em;
+    }
+}
