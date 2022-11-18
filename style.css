@@ -191,3 +191,12 @@ footer #name {
 footer a {
     text-decoration: dashed underline;
 }
+
+footer li {
+    display: inline;
+}
+
+footer .social-media {
+    padding-left: 10px;
+    font-size: 2em;
+}
