@@ -1,1 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+body {
+    background: #1F1D2B;
+    color: white;
+    margin: 0;
+    padding: 0;
+    /* font Poppins is imported, Arial is Mac and Windows friendly, Helvetica is Mac friendly */
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    height: 100%;
+    width: 100%;
+}
+
+#logo-img {
+    position: relative;
+    width: 100px;
+    margin: 20px;
+}
