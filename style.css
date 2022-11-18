@@ -174,3 +174,10 @@ ul {
 #nav-container li:hover::after {
     transition-delay: 0s, 0.3s, 0s;
 }
+
+/* Footer */
+footer {
+    text-align: center;
+    margin: 2em auto;
+    color: #9ca3af;
+}
