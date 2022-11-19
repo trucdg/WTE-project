@@ -5,3 +5,12 @@
     background-position: center;
     background-size: cover;
 }
+
+#instagram-feed {
+    text-align: center;
+    padding: 3em 2em;
+}
+
+#instagram-feed h2 {
+    margin: 1em;
+}
