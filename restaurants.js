@@ -7,6 +7,11 @@ function initMap() {
         lng: -71.106918,
     };
 
+    let mapOptions = {
+        center: location,
+        zoom: 12,
+    }
+
     // The map, centered at Boston University
     map = new google.maps.Map(document.getElementById("map"), {
         zoom: 13,
