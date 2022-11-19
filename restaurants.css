@@ -58,7 +58,11 @@ input {
     color: white !important;
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
+    #input-outer-cont {
+        font-size: 1em;
+    }
+
     #restaurants-cont img {
         width: 7em;
         height: 7em;
@@ -71,6 +75,19 @@ input {
 
     #restaurants-cont div h3 {
         font-size: small;
+    }
+
+}
+
+@media screen and (max-width: 576px) {
+    p#tagline {
+        font-size: 0.8em;
+    }
+
+    input {
+        width: 70vw;
+        height: 1.5em;
+        margin: 0.5em auto;
     }
 
 }
