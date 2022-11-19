@@ -233,7 +233,7 @@ footer .social-media {
     color: #EA7C69;
 }
 
-.internal-header .tagline {
+.internal-header #tagline {
     font-size: 1.2em;
     font-family: 'Comfortaa';
     padding-top: 1em;
@@ -271,6 +271,11 @@ footer .social-media {
 
     #typeIt-container, #nav-container li, footer {
         font-size: 1em;
+    }
+
+    /* Styling for internal pages */
+    .internal-header #tagline {
+        font-size: 0.8em;
     }
 
 }
