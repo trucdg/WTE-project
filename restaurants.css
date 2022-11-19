@@ -1,3 +1,12 @@
+/* cover photo */
+#cover-photo {
+    width: 100vw;
+    height: 40vh;
+    background: url(imgs/restaurant-cover-photo.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
 /* Input for map */
 #input-outer-cont {
     margin: 2em;
