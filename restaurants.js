@@ -59,6 +59,36 @@ function initMap() {
         map = new google.maps.Map(mapContainer, mapOptions);
         createMarker(location, map);
     }
+
+    // add Autocomplete feature of the places library
+
+    let autocomplete = new google.maps.places.Autocomplete(
+        document.getElementById("search-input"),
+        {
+            type: ["establishment"],
+            fields: ["geometry", "name"],
+        }
+    );
+
+    autocomplete.addListener("place_changed", () => {
+        const place = autocomplete.getPlace();
+
+        // when user enters a location that is not suggested by autocomplete
+        // or autocomplete fails to get a place
+        if (!place.geometry) {
+            alert(`No details available for input: '${place.name}' \n
+                    Please select a location from the dropdown!`);
+        } else {
+            location = place.geometry.location;
+            map = new google.maps.Map(mapContainer, {
+                center: location,
+                zoom: 13,
+            });
+
+            console.log("location entered:" + location);
+            createMarker(location, map);
+        }
+    });
 }
 
 window.initMap = initMap;
