@@ -1,0 +1,7 @@
+#cover-photo {
+    width: 100vw;
+    height: 40vh;
+    background: url(imgs/foodfeed-cover-photo.JPG) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
