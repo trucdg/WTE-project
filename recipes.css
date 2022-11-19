@@ -1,6 +1,21 @@
+h2 {
+    text-align: center;
+    margin: 2em auto;
+    text-transform: uppercase;
+    color: #e3e1e1;
+}
+
 /* Google Search box */
 #google-search-box {
     margin: 2em auto;
     width: 80%;
-    box-shadow: 10px 5px 5px #f4f4f470;
+    box-shadow: 10px 15px 10px #edecec70;
+}
+
+#cover-photo {
+    width: 100vw;
+    height: 40vh;
+    background: url(imgs/recipes-cover-photo.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
 }
