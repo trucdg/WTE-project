@@ -12,6 +12,8 @@ function initMap() {
         zoom: 12,
     }
 
+    const mapContainer = document.getElementById("map");
+
     // The map, centered at Boston University
     map = new google.maps.Map(document.getElementById("map"), {
         zoom: 13,
