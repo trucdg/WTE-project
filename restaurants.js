@@ -14,11 +14,10 @@ function initMap() {
 
     const mapContainer = document.getElementById("map");
 
-    // The map, centered at Boston University
-    map = new google.maps.Map(document.getElementById("map"), {
-        zoom: 13,
-        center: location,
-    });
+    //create the map 
+    map = new google.maps.Map(mapContainer, mapOptions);
+
+    const icon = "https://img.icons8.com/plasticine/100/000000/user-location.png";
 
     // The marker, positioned at Boston University
     const marker = new google.maps.Marker({
