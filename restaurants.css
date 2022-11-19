@@ -57,3 +57,20 @@ input {
 .restaurant div div {
     color: white !important;
 }
+
+@media (max-width: 768px) {
+    #restaurants-cont img {
+        width: 7em;
+        height: 7em;
+        margin: 20px;
+    }
+
+    #restaurants-cont div {
+        font-size: x-small;
+    }
+
+    #restaurants-cont div h3 {
+        font-size: small;
+    }
+
+}
