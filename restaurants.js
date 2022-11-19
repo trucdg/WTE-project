@@ -103,6 +103,10 @@ function initMap() {
         });
         createMarker(location, map);
 
+        //get the target element to display the restaurants
+        let restContainer = document.getElementById('restaurants-cont');
+        restContainer.innerHTML = '<h2>Restaurants Near You </h2>';
+
         // create the PlacesService Object to use nearbySearch
         // find restaurants within 5000m of the user's location with matched keywords
         let request = {
@@ -119,18 +123,54 @@ function initMap() {
 
     function callback(results, status) {
         if (status == google.maps.places.PlacesServiceStatus.OK) {
+            let currentInfoWindow = null;
             let qty = Math.min(3, results.length);
             for (let i = 0; i < qty; i++) {
-                console.log(results);
+                let result = results[i];
+                let contentString =
+                    `<div style="color:black">` +
+                    `<h3>${result.name}</h3>` +
+                    `<p>Address: ${result.vicinity}</p>` +
+                    `<p>Price Level: ${result.price_level}/4</p>` +
+                    `<p>Rating: ${result.rating}/5 </p>` +
+                    `</div>`;
+                let infoWindow = new google.maps.InfoWindow({
+                    content: contentString
+                });
                 let marker = new google.maps.Marker({
-                    position: results[i].geometry.location,
+                    position: result.geometry.location,
                     map: map,
-                    label: results[i].name,
-                })
+                    label: result.name,
+                });
+                marker.addListener('click', () => {
+                    if (currentInfoWindow != null) {
+                        currentInfoWindow.close();
+                    };
+                    infoWindow.open({
+                        anchor: marker,
+                        map,
+                        shouldFocus: false,
+                    });
+                    currentInfoWindow = infoWindow;
+                });
+
+                //display Restaurants
+                let newDiv = document.createElement('div');
+                newDiv.classList.add('restaurant');
+                document.querySelector('#restaurants-cont').appendChild(newDiv);
+                let img = document.createElement('img');
+                img.src = result.photos[0].getUrl();
+                newDiv.appendChild(img);
+                let infoBox = document.createElement('div');
+                infoBox.innerHTML = contentString;
+                newDiv.appendChild(infoBox);
+
             }
         }
     }
 }
+
+
 
 
 
