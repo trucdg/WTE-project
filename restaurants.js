@@ -19,11 +19,17 @@ function initMap() {
 
     const icon = "https://img.icons8.com/plasticine/100/000000/user-location.png";
 
-    // The marker, positioned at Boston University
-    const marker = new google.maps.Marker({
-        position: location,
-        map: map,
-    });
+    // create Marker function
+
+    function createMarker(location, map) {
+        let marker = new google.maps.Marker({
+            position: location,
+            map: map,
+            icon: icon,
+        });
+    }
+
+    createMarker(location, map);
 }
 
 window.initMap = initMap;
