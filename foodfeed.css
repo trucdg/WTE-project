@@ -14,3 +14,10 @@
 #instagram-feed h2 {
     margin: 1em;
 }
+
+@media screen and (max-width: 576px) {
+    #instagram-feed h2 {
+        font-size: 1em;
+    }
+
+}
