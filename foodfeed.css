@@ -8,7 +8,9 @@
 
 #instagram-feed {
     text-align: center;
-    padding: 3em 2em;
+    padding: 3em 0;
+    margin: auto;
+    width: 80%;
 }
 
 #instagram-feed h2 {
