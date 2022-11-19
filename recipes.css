@@ -19,11 +19,3 @@ h2 {
     background-position: center;
     background-size: cover;
 }
-
-
-@media screen and (max-width: 576px) {
-    p#tagline {
-        font-size: 0.8em;
-    }
-
-}
