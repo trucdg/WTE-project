@@ -19,11 +19,11 @@ li {
 
 a {
     text-decoration: none;
-    padding-left: 2em;
 }
 
 ul a {
     color: #3D5A80;
+    padding-left: 2em;
 }
 
 .emphasized {
