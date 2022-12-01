@@ -114,6 +114,10 @@ button:hover {
     padding-bottom: 1.7em;
 }
 
+#education-cont p {
+    padding-bottom: 1em;
+}
+
 .edu-text {
     text-align: left;
 }
