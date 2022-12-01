@@ -19,6 +19,7 @@ li {
 
 a {
     text-decoration: none;
+    padding-left: 2em;
 }
 
 ul a {
@@ -37,7 +38,7 @@ ul a {
 
 /* Header */
 header {
-    margin: 4em auto;
+    margin: 5em auto;
     color: #333;
 }
 
@@ -89,4 +90,11 @@ button:hover {
 
 #linkedin-btn a {
     color: #EE6C4D;
+}
+
+@media screen and (min-width: 1200px) {
+    #navbar-container {
+        font-size: 1.3rem;
+    }
+
 }
