@@ -26,7 +26,7 @@ new TypeIt("#typeIt-Element", {
     .type('<strong>HUNGRY?</strong>', { delay: 150 })
     .break()
     .pause()
-    .type('Which dish below do you like best?', {
+    .type('Which dish below describe your mood?', {
         speed: 100,
     })
     .go();
