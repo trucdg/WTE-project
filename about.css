@@ -96,7 +96,8 @@ button:hover {
 /* Education */
 #education-cont {
     text-align: center;
-    padding-top: 4em;
+    padding: 4em 0;
+    background-color: rgba(217, 225, 238, 0.582);
 }
 
 h2 {
