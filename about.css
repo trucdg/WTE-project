@@ -146,6 +146,36 @@ button:hover {
 #projects-cont {
     padding-top: 3em;
     text-align: center;
+    width: 80%;
+    margin: auto;
+}
+
+#wte-project {
+    padding-left: 0;
+}
+
+#projects-cont h3 {
+    font-family: 'Playfair Display', Arial, Helvetica, sans-serif;
+    padding-bottom: 0.7em;
+}
+
+.single-project-cont {
+    border: solid 1px rgba(217, 225, 238, 0.582);
+    background-color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    border-radius: 10px;
+}
+
+.project-text {
+    text-align: left;
+    line-height: 2em;
+    font-size: 1em;
+    padding-right: 5em;
+}
+
+.project-img img {
+    object-fit: cover;
+    height: auto;
 }
 
 /* Footer */
