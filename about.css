@@ -42,6 +42,10 @@ a {
     font-weight: 700;
 }
 
+#navbar-container .emphasized {
+    color: #EE6C4D;
+}
+
 /* Header */
 header {
     margin: 5em auto;
