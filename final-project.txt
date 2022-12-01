@@ -1,0 +1,28 @@
+Name: Truc Duong
+BU username: trucdg
+a. URL: https://cs-people.bu.edu/trucdg/cs103/final-project/
+b. I created my own HTML and CSS. However, I used a CSS hover effect template for the navigation bar on the Homepage
+c. The URL to the CSS template of the hover effect: https://codepen.io/kiran-r-raj/pen/poRGMPa
+d. Interactive Feature requirement using JS toolkits provided by others: 
+ - On the Homepage of my website, I used typeIt to embed dynamically typed texts. The text is to prompt users to hover
+ over the displayed thumbnail pictures.
+
+ - On the Restaurant page:
+	+ I used the geolocation feature of the browser to obtaine user's location, used alert() to print out a prompt asking
+	permission to access user's current location. If access is denied, the location will be set to BU's geo coordinates.
+	+ I used GoogleMapAPI to embed a dynamic and interactive map centered at user's location or a default location.
+	+ I used GoogleMap Places API and its library to obtain the information of 3 restaurants which are nearest to the
+	user and within 5km of the user's location. 
+	+ I used Autocomplete feature of GoogleMapAPI to create the autocomplete dropdown on the input of location.
+ - On the Recipe page:
+	+ I added a Google Search Engine and enhanced search results by adding the keyword "food" and "recipe" into the search feature.
+	Thus, user only need to type in keywords, i.e chicken, then the results will contain chicken recipe related pages.
+ - On the FoodFeed page:
+	+ I created and added Instagram Feeds provided by Juicer. I linked the media source to my instagram account and added
+	the hashtags: #bostonfood, #foodie (for pictures) and also instagram #food reels (to get videos posts). 
+	I set the daily number of posts to 60, and new posts will be updated daily. 
+e. Interactive Feature requirement using JS coding from scratch:
+ - On the Homepage:  
+	+ I created the imgSlider() function to change the food image in the header when the user hover over
+ 	one of the three displayed thumbnail pictures.
+	
