@@ -140,10 +140,26 @@ button:hover {
 }
 
 /* Footer */
+/* Footer */
 footer {
     text-align: center;
     margin: 2em auto;
-    font-size: 1.5em;
+    color: #333;
+    font-size: 1.2em;
+    letter-spacing: 1px;
+}
+
+footer a {
+    text-decoration: dashed underline;
+}
+
+footer li {
+    display: inline;
+}
+
+footer .social-media {
+    padding-left: 10px;
+    font-size: 1.7em;
 }
 
 @media screen and (min-width: 1200px) {
