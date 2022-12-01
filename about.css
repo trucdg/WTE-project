@@ -33,3 +33,8 @@ ul a {
     font-size: 1.3vw;
     font-weight: 700;
 }
+
+/* Header */
+header {
+    margin: 4em auto;
+}
