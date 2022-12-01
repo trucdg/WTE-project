@@ -27,7 +27,7 @@ a {
     text-decoration: none;
 }
 
-ul a {
+#navbar-container a {
     color: #3D5A80;
     padding-left: 2em;
 }
