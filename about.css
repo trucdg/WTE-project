@@ -98,6 +98,16 @@ button:hover {
     color: #EE6C4D;
 }
 
+/* Main content section */
+
+.section h2 {
+    font-family: 'Playfair Display', Arial, Helvetica, sans-serif;
+    font-size: 2.5em;
+    text-decoration: underline #EE6C4D;
+    text-underline-offset: 10px;
+    padding-bottom: 1.7em;
+}
+
 /* Education */
 #education-cont {
     text-align: center;
@@ -105,14 +115,6 @@ button:hover {
     background-color: rgba(217, 225, 238, 0.582);
     font-size: 1.1em;
     font-weight: 500;
-}
-
-#education-cont h2 {
-    font-family: 'Playfair Display', Arial, Helvetica, sans-serif;
-    font-size: 2.5em;
-    text-decoration: underline #EE6C4D;
-    text-underline-offset: 10px;
-    padding-bottom: 1.7em;
 }
 
 #education-cont p {
@@ -139,7 +141,13 @@ button:hover {
     color: #333;
 }
 
-/* Footer */
+/* Projects */
+
+#projects-cont {
+    padding-top: 3em;
+    text-align: center;
+}
+
 /* Footer */
 footer {
     text-align: center;
