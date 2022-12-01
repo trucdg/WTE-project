@@ -9,6 +9,10 @@ body {
     box-sizing: border-box;
 }
 
+p {
+    margin: 0;
+}
+
 /* Nav bar */
 ul {
     list-style-type: none;
@@ -96,20 +100,30 @@ button:hover {
 /* Education */
 #education-cont {
     text-align: center;
-    padding: 4em 0;
+    padding: 4em 7em;
     background-color: rgba(217, 225, 238, 0.582);
+    font-size: 1em;
 }
 
-h2 {
+#education-cont h2 {
     font-family: 'Playfair Display', Arial, Helvetica, sans-serif;
     font-size: 2.5em;
     text-decoration: underline #EE6C4D;
     text-underline-offset: 10px;
+    padding-bottom: 1.7em;
+}
+
+.edu-text {
+    text-align: left;
 }
 
 @media screen and (min-width: 1200px) {
     #navbar-container {
         font-size: 1.3rem;
+    }
+
+    body {
+        width: 1400px;
     }
 
 }
