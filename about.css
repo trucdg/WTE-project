@@ -102,7 +102,8 @@ button:hover {
     text-align: center;
     padding: 4em 7em;
     background-color: rgba(217, 225, 238, 0.582);
-    font-size: 1em;
+    font-size: 1.1em;
+    font-weight: 500;
 }
 
 #education-cont h2 {
