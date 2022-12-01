@@ -6,6 +6,7 @@ body {
     letter-spacing: 1px;
     width: 100%;
     margin: 0 auto;
+    box-sizing: border-box;
 }
 
 /* Nav bar */
@@ -90,6 +91,19 @@ button:hover {
 
 #linkedin-btn a {
     color: #EE6C4D;
+}
+
+/* Education */
+#education-cont {
+    text-align: center;
+    padding-top: 4em;
+}
+
+h2 {
+    font-family: 'Playfair Display', Arial, Helvetica, sans-serif;
+    font-size: 2.5em;
+    text-decoration: underline #EE6C4D;
+    text-underline-offset: 10px;
 }
 
 @media screen and (min-width: 1200px) {
