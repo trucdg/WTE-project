@@ -229,12 +229,23 @@ button:hover {
 }
 
 #feedback-btn-cont {
-    margin: 4em 0;
     font-size: 2em;
 }
 
 #feedback-btn-cont button {
-    margin: 0 1em;
+    margin: 3em 1em 0 1em;
+}
+
+#amazing-btn {
+    background-color: #c7f9cc;
+}
+
+#amazing-btn:hover {
+    background-color: #91f19b;
+}
+
+#meh-btn {
+    background-color: #ee6d4d8f;
 }
 
 /* Footer */
