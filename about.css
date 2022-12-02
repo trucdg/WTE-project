@@ -105,6 +105,7 @@ button:hover {
 /* Main content section */
 .section {
     color: #2e425c;
+    padding-top: 2em;
 }
 
 .section h2 {
@@ -327,6 +328,48 @@ button:hover {
 
 #quicklinks li:hover {
     transform: translateX(10%);
+}
+
+@media screen and (max-width: 1200px) {
+
+    /* Body */
+    body {
+        font-size: 1vw;
+    }
+
+    /* Header */
+    #header-img {
+        width: 30vw;
+    }
+
+    #header-text h1 {
+        font-size: 2.5vw;
+    }
+
+    #tagline {
+        word-spacing: normal;
+        letter-spacing: normal;
+    }
+
+    /* Education */
+    .uni-cont img {
+        width: 15vw;
+    }
+
+    /* Projects */
+    #projects-cont h2 {
+        font-size: 3vw;
+    }
+
+    /* Footer */
+    #logo-text {
+        font-size: 3vw;
+    }
+
+    #quicklinks h2 {
+        font-size: 2vw;
+    }
+
 }
 
 @media screen and (min-width: 1200px) {
