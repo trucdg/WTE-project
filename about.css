@@ -167,7 +167,7 @@ button:hover {
     border: solid 1px rgba(217, 225, 238, 0.582);
     background-color: white;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 
 .project-text {
@@ -177,9 +177,10 @@ button:hover {
     padding-right: 5em;
 }
 
-.project-img img {
+.project-img {
     object-fit: cover;
-    height: auto;
+    width: 100%;
+    border-radius: 15px 0 0 15px;
 }
 
 /* Footer */
