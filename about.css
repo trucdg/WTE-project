@@ -289,15 +289,20 @@ footer .social-media {
 .footer {
     background: #3D5A80;
     color: #d3d3d3;
-    font-size: 2em;
+    font-size: 1.2em;
     height: 400px;
+    position: relative;
 }
 
 .footer .footer-bottom {
     background: #2e425c;
-    color: #686868;
-    height: 50px;
+    height: 80px;
+    width: 100%;
     text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 15px 30px 10px 10px;
 }
 
 @media screen and (min-width: 1200px) {
