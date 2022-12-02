@@ -14,22 +14,15 @@ p {
     margin: 0;
 }
 
-/* Nav bar */
-#navbar-container ul {
-    list-style-type: none;
-}
-
-#navbar-container li {
-    display: inline;
-}
-
 a {
     text-decoration: none;
 }
 
+/* Nav bar */
+
 #navbar-container a {
     color: #3D5A80;
-    padding-left: 2em;
+    padding-left: 1em;
 }
 
 .emphasized {
