@@ -190,7 +190,7 @@ button:hover {
     width: 100%;
 }
 
-#project1-img {
+#project1-img, #project3-img {
     border-radius: 0 15px 15px 0;
 }
 
