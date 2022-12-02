@@ -15,11 +15,11 @@ p {
 }
 
 /* Nav bar */
-ul {
+#navbar-container ul {
     list-style-type: none;
 }
 
-li {
+#navbar-container li {
     display: inline;
 }
 
@@ -264,38 +264,30 @@ button:hover {
 }
 
 /* Footer */
-footer {
-    text-align: center;
-    margin: 2em auto;
-    color: #333;
-    font-size: 1.2em;
-    letter-spacing: 1px;
-}
-
-footer a {
-    text-decoration: dashed underline;
-}
-
-footer li {
-    display: inline;
-}
-
-footer .social-media {
-    padding-left: 10px;
-    font-size: 1.7em;
-}
-
-/*  */
 .footer {
-    background: #3D5A80;
-    color: #d3d3d3;
+    background: rgba(217, 225, 238, 0.582);
+    color: #25354a;
     font-size: 1.2em;
     height: 400px;
     position: relative;
 }
 
+.footer a {
+    color: #25354a;
+}
+
+.footer .footer-content {
+    height: 320px;
+    display: flex;
+}
+
+.footer .footer-content .footer-section {
+    flex: 1;
+}
+
 .footer .footer-bottom {
-    background: #2e425c;
+    background: #25354a;
+    color: #ededed;
     height: 80px;
     width: 100%;
     text-align: center;
