@@ -268,8 +268,9 @@ button:hover {
     background: rgba(217, 225, 238, 0.582);
     color: #25354a;
     font-size: 1.2em;
-    height: 400px;
+    height: 500px;
     position: relative;
+    padding: 3em 3em 0 3em;
 }
 
 .footer a {
@@ -277,12 +278,23 @@ button:hover {
 }
 
 .footer .footer-content {
-    height: 320px;
+    height: 420px;
     display: flex;
 }
 
-.footer .footer-content .footer-section {
-    flex: 1;
+#footer-contact {
+    margin: 1em 0;
+}
+
+.footer-section .social-media ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-section .social-media li {
+    display: inline;
+    font-size: 2em;
+    padding-right: 0.5em;
 }
 
 .footer .footer-bottom {
@@ -295,6 +307,10 @@ button:hover {
     bottom: 0;
     left: 0;
     padding: 15px 30px 10px 10px;
+}
+
+.footer .footer-bottom a {
+    color: #ededed;
 }
 
 @media screen and (min-width: 1200px) {
