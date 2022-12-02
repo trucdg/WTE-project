@@ -347,8 +347,9 @@ button:hover {
     }
 
     /* Education */
-    .uni-cont img {
-        width: 15vw;
+
+    #education-cont {
+        padding: 2em;
     }
 
     /* Projects */
