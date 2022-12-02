@@ -154,8 +154,8 @@ button:hover {
     margin: auto;
 }
 
-#wte-project {
-    padding-left: 0;
+#projects-cont a {
+    color: #333;
 }
 
 #projects-cont h3 {
@@ -194,15 +194,10 @@ button:hover {
     padding: 0.5em 1em;
 }
 
-.project-btn a {
-    color: #333;
-}
-
 .project-github {
     font-size: 2.5em;
     margin-left: 0.5em;
     padding-top: 5px;
-    color: #333;
 }
 
 /* Footer */
