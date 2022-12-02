@@ -4,7 +4,7 @@ new TypeIt("#typeIt-cont", {
     speed: 80,
     startDelay: 900,
 })
-    .type('Hello <strong>World!</strong>', { delay: 150 })
+    .type('Hello World!', { delay: 150 })
     .delete(1)
     .pause(200)
     .delete(1)
@@ -20,7 +20,7 @@ new TypeIt("#typeIt-cont", {
     .type('there!', { delay: 150 })
     .break()
     .pause()
-    .type('My name is Truc Duong.', {
+    .type('My name is <br> TRUC DUONG.', {
         speed: 100,
     })
     .go();

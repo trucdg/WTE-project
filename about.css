@@ -49,10 +49,10 @@ header {
     color: #333;
 }
 
-#header-text h1 {
+#typeIt-cont {
     font-family: Roboto, Arial, Helvetica, sans-serif;
     font-weight: 900;
-    font-size: 3em;
+    font-size: 3.1em;
 }
 
 #header-text p {
@@ -360,7 +360,7 @@ button:hover {
         width: 45vw;
     }
 
-    #header-text h1 {
+    #typeIt-cont {
         font-size: 2em;
     }
 
@@ -420,7 +420,7 @@ button:hover {
         font-size: 0.5em;
     }
 
-    #header-text h1, .section h2, #about-text h3, #projects-cont h3 {
+    #typeIt-cont, .section h2, #about-text h3, #projects-cont h3 {
         font-size: 20px;
     }
 
