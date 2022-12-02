@@ -176,7 +176,6 @@ button:hover {
 .single-project-cont:hover {
     background-color: rgba(217, 225, 238, 0.582);
     transform: translateY(-0.3em);
-    cursor: pointer;
 }
 
 .project-text {
