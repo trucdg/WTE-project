@@ -1,3 +1,32 @@
+// typeIt
+
+new TypeIt("#typeIt-cont", {
+    speed: 80,
+    startDelay: 900,
+})
+    .type('Hello <strong>World!</strong>', { delay: 150 })
+    .delete(1)
+    .pause(200)
+    .delete(1)
+    .pause(200)
+    .delete(1)
+    .pause(200)
+    .delete(1)
+    .pause(200)
+    .delete(1)
+    .pause(200)
+    .delete(1)
+    .pause(200)
+    .type('there!', { delay: 150 })
+    .break()
+    .pause()
+    .type('My name is Truc Duong.', {
+        speed: 100,
+    })
+    .go();
+
+
+// Funny Feedback button
 let a = 0;
 function mouseOver() {
     if (a == 0) {
