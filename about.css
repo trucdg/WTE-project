@@ -161,6 +161,7 @@ button:hover {
 #projects-cont h3 {
     font-family: 'Playfair Display', Arial, Helvetica, sans-serif;
     padding-bottom: 0.7em;
+
 }
 
 .single-project-cont {
@@ -168,6 +169,14 @@ button:hover {
     background-color: white;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
     border-radius: 15px;
+    margin-bottom: 3em;
+    transition: all 0.2s;
+}
+
+.single-project-cont:hover {
+    background-color: rgba(217, 225, 238, 0.582);
+    transform: translateY(-0.3em);
+    cursor: pointer;
 }
 
 .project-text {
@@ -188,7 +197,7 @@ button:hover {
 }
 
 .project-btn {
-    background-color: #fff;
+    background-color: inherit;
     border: solid 2px #333;
     border-radius: 1.5em;
     padding: 0.5em 1em;
