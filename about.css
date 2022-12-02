@@ -319,6 +319,16 @@ button:hover {
     padding-bottom: 0.7em;
 }
 
+/* Footer Quicklinks */
+#quicklinks li {
+    transition: all 0.25s;
+    padding-bottom: 0.7em;
+}
+
+#quicklinks li:hover {
+    transform: translateX(10%);
+}
+
 @media screen and (min-width: 1200px) {
     #navbar-container {
         font-size: 1.3rem;
