@@ -110,6 +110,7 @@ button:hover {
     text-decoration: underline #EE6C4D;
     text-underline-offset: 10px;
     padding-bottom: 1.7em;
+    text-align: center;
 }
 
 /* Education */
@@ -213,6 +214,17 @@ button:hover {
     font-size: 2.5em;
     margin-left: 0.5em;
     padding-top: 5px;
+}
+
+/* Feedback */
+#feedback-cont {
+    text-align: center;
+}
+
+#feedback-cont p {
+    font-size: 2em;
+    font-weight: 500;
+    font-family: 'Comfortaa', Arial, Helvetica, sans-serif;
 }
 
 /* Footer */
