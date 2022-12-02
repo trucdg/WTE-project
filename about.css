@@ -391,11 +391,19 @@ button:hover {
 
     /* Footer */
     #logo-text {
-        font-size: 3vw;
+        font-size: 1.7em;
     }
 
     #quicklinks h2 {
-        font-size: 2vw;
+        font-size: 1em;
+    }
+
+    .footer-content {
+        font-size: 0.7em;
+    }
+
+    .footer {
+        padding: 1em;
     }
 
 }
