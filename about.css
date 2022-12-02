@@ -31,7 +31,7 @@ a {
 
 #navbar-container {
     padding: 2em;
-    font-size: 1.3vw;
+    font-size: 1.2em;
     font-weight: 700;
 }
 
@@ -106,12 +106,36 @@ button:hover {
 .section h2 {
     font-family: 'Playfair Display', Arial, Helvetica, sans-serif;
     font-size: 2.5em;
-    text-decoration: underline #EE6C4D;
-    text-underline-offset: 10px;
+    text-decoration: underline 3px #EE6C4D;
+    text-underline-offset: 8px;
     padding-bottom: 1.7em;
     text-align: center;
 }
 
+/* About */
+#about-cont-outer {
+    margin-bottom: 4em;
+}
+
+#about-cont-inner {
+    text-align: center;
+    width: 80%;
+    border: solid 3px #EE6C4D;
+    border-radius: 2em;
+    box-shadow: 10px 15px 5px #d5d7da;
+    margin: auto;
+    padding: 2em 3em;
+}
+
+#code-girl {
+    width: 100%;
+}
+
+#about-text {
+    text-align: start;
+    line-height: 2em;
+    font-weight: 500;
+}
 
 /* Education */
 #education-cont {
@@ -326,11 +350,6 @@ button:hover {
 }
 
 @media screen and (max-width: 1200px) {
-
-    /* Body */
-    body {
-        font-size: 2vw;
-    }
 
     /* Header */
     .header-imgs {
