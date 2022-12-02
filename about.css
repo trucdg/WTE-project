@@ -25,6 +25,10 @@ a {
     padding-left: 1em;
 }
 
+#navbar-container .navbar-brand {
+    padding: 0;
+}
+
 .emphasized {
     color: #EE6C4D;
 }
@@ -349,6 +353,24 @@ button:hover {
     transform: translateX(10%);
 }
 
+@media screen and (max-width: 768px) {
+
+    /* Header */
+    #header-text p {
+        font-size: 0.5em;
+    }
+
+    header #btn-cont {
+        font-size: 0.5em;
+    }
+
+    /* Navbar */
+    #navbar-container li {
+        font-size: 0.7em;
+    }
+
+}
+
 @media screen and (max-width: 1200px) {
 
     /* Header */
@@ -357,12 +379,17 @@ button:hover {
     }
 
     #header-text h1 {
-        font-size: 3vw;
+        font-size: 2em;
     }
 
     #tagline {
         word-spacing: normal;
         letter-spacing: normal;
+    }
+
+    /* Navbar */
+    #navbar-container {
+        padding: 1em;
     }
 
     /* Education */
@@ -388,10 +415,6 @@ button:hover {
 }
 
 @media screen and (min-width: 1200px) {
-    #navbar-container {
-        font-size: 1.3rem;
-    }
-
     body {
         width: 1400px;
     }
