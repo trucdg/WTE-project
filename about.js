@@ -23,3 +23,8 @@ function buttonReset() {
     const button = document.getElementById('meh-btn');
     button.style.transform = 'translateX(0)';
 }
+
+function sendResponse() {
+    document.getElementById('feedback-response').style.display = 'block';
+    document.getElementById('feedback-btn-cont').style.display = 'none';
+}

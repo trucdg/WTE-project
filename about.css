@@ -253,6 +253,9 @@ button:hover {
     font-family: 'Playfair Display', Arial, Helvetica, sans-serif;
     letter-spacing: 2px;
     word-spacing: 5px;
+}
+
+#feedback-response {
     display: none;
 }
 
