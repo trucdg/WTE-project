@@ -382,7 +382,11 @@ button:hover {
 
     /* Projects */
     #projects-cont h3 {
-        font-size: 3vw;
+        font-size: 1.5em;
+    }
+
+    .single-project-cont {
+        font-size: 0.7em;
     }
 
     /* Footer */
@@ -408,7 +412,7 @@ button:hover {
         font-size: 0.5em;
     }
 
-    #header-text h1, .section h2, #about-text h3 {
+    #header-text h1, .section h2, #about-text h3, #projects-cont h3 {
         font-size: 20px;
     }
 
