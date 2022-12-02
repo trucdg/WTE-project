@@ -174,7 +174,7 @@ button:hover {
     text-align: left;
     line-height: 2em;
     font-size: 1em;
-    padding-right: 5em;
+    padding: 2em 4em 2em 2em;
 }
 
 .project-img {
