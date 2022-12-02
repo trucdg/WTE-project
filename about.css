@@ -80,6 +80,7 @@ button:hover {
 #projects-btn {
     margin-right: 1em;
     background-color: #EE6C4D;
+    margin-top: 1em;
 }
 
 #projects-btn a {
@@ -89,6 +90,7 @@ button:hover {
 #linkedin-btn {
     background-color: #F9FAFF;
     border: solid 0.5px #EE6C4D;
+    margin-top: 1em;
 }
 
 #linkedin-btn a {
@@ -336,7 +338,7 @@ button:hover {
     }
 
     #header-text h1 {
-        font-size: 2.5vw;
+        font-size: 3vw;
     }
 
     #tagline {
