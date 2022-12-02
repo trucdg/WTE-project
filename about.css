@@ -219,6 +219,7 @@ button:hover {
 /* Feedback */
 #feedback-cont {
     text-align: center;
+    margin: 4em auto;
 }
 
 #feedback-cont p {
