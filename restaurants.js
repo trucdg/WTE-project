@@ -3,8 +3,8 @@ function initMap() {
     let map;
     //default Location is Boston University
     let location = {
-        lat: 42.350876,
-        lng: -71.106918,
+        lat: 40.758896,
+        lng: -73.985130,
     };
 
     let mapOptions = {
