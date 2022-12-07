@@ -5,123 +5,268 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> WTE | Homepage </title>
-
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <!-- Font Awesome Bootstrap -->
     <script src="https://kit.fontawesome.com/71959eee97.js" crossorigin="anonymous"></script>
-
     <!-- TypeIt JS -->
     <script src="https://unpkg.com/typeit@8.7.0/dist/index.umd.js"></script>
-
-    <!-- External Style Sheet -->
-    <link href="style.css" rel="stylesheet" type="text/css">
-
+    <!-- External CSS -->
+    <link rel="stylesheet" href="about.css" type="text/css">
+    <title>Truc Duong | About</title>
 </head>
 
 <body>
     <!-- Navbar Hamburger -->
-    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: transparent;">
+    <nav class="navbar navbar-expand-lg" id="navbar-container" style="background-color: transparent;">
         <div class="container-fluid">
             <!-- Logo - Top Left Corner -->
-            <a class="navbar-brand" href="index.html">
-                <img src="imgs/WTElogo.png" alt="logo" id="logo-img">
+            <a class="navbar-brand emphasized" href="about.html">
+                trucdg.
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"
-                style="background-color: #f3f3f3">
+                style="background-color: #F9FAFF">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <!-- d-lg-none: hidden on screen wider than lg; Note that hamburger menu only appear on sc <= large  -->
-                <ul class="navbar-nav d-lg-none">
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html"
+                        <a class="nav-link active" aria-current="page" href="about.html"
                             style="color: #EA7C69;">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link " href="restaurants.html" style="color: #f3f3f3">Restaurants</a>
+                        <a class="nav-link " href="#education-cont">Education</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="recipes.html" style="color: #f3f3f3">Recipes</a>
+                        <a class="nav-link" href="#projects-cont">Projects</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="foodfeed.html" style="color: #f3f3f3">Food Feed</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="about.html" style="color: #f3f3f3">Contact</a>
+                        <a class="nav-link" href="https://www.linkedin.com/in/trucduong0301">Contact</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <!-- Navigation -->
-    <!-- Hide on screen smaller than lg -->
-    <div id="nav-container" class="d-flex d-none d-lg-block justify-content-around align-items-center">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="restaurants.html">Restaurants</a></li>
-            <li><a href="recipes.html">Recipes</a></li>
-            <li><a href="foodfeed.html">Food Feed</a></li>
-            <li><a href="about.html">Contact</a></li>
-        </ul>
-    </div>
-
     <!-- Header -->
     <header>
-        <div class="header container-fluid">
-            <div class="row align-items-center">
-                <div class="textBox col-md-6">
-                    <h1><span>W</span>hat <span>T</span>o <span>E</span>at?</h1>
-                    <h1><span>W</span>here <span>T</span>o <span>E</span>at?</h1>
-                    <p>Eat the right <span>FOOD</span></p>
-                    <p>At the right <span>PLACE</span></p>
+        <div class="container">
+            <div class="row justify-content-around align-items-center">
+                <div class="col-5" id="header-text">
+                    <div>
+                        <p class="emphasized">SOFTWARE DEVELOPER</p>
+                        <div id="typeIt-cont"></div>
+                        <p id="tagline" class="d-none d-lg-block">
+                            I love
+                            coding and
+                            building
+                            things that make people smile :)</p>
+                    </div>
+                    <div class="d-flex" id="btn-cont">
+                        <button id="projects-btn"><a href="#projects-cont">Projects</a></button>
+                        <button id="linkedin-btn"><a
+                                href="https://www.linkedin.com/in/trucduong0301/">LinkedIn</a></button>
+                    </div>
                 </div>
-                <div class="imgBox col-md-6 d-flex">
-                    <img src="imgs/food1.png" alt="food image 1" class="food">
+                <div class="col-5 d-flex justify-content-center">
+                    <img class="d-none d-lg-block header-imgs" src="imgs/header-image.png" alt="portrait">
+                    <img src="imgs/header-image2.png" class="d-lg-none header-imgs" alt="portrait">
                 </div>
             </div>
         </div>
     </header>
+    <!-- Main content -->
+    <!-- About -->
+    <div class="container  section" id="about-cont-outer">
+        <h2>About</h2>
+        <div class="row align-items-center" id="about-cont-inner">
+            <div class="col d-none d-lg-block">
+                <img src="imgs/code-girl.svg" alt="code girl" id="code-girl">
+            </div>
+            <div class="col" id="about-text">
+                <h3>My Journey</h3>
+                <p>I'm currently a junior majoring in Computer Science at
+                    <span class="emphasized">Boston University</span>.
+                </p>
+                <p>I came from a place where women in tech are rare. Thus, I'm determined to improve myself and become
+                    the person who can build for the under-represented communities.</p>
+                <p class="d-lg-none"> I love coding and build things that make people smile :).</p>
+                <p>My motto is <span class="emphasized"> “fake it till you make it!”.</span></p>
+            </div>
 
-    <!-- Root Element for TypeIt -->
-    <div id="typeIt-container"><span id="typeIt-Element"></span></div>
+        </div>
+    </div>
+    <!-- Education -->
+    <div id="education-cont" class="section">
+        <h2>Education</h2>
+        <!-- Boston University -->
+        <div class="row justify-content-center uni-cont">
+            <div class="col-4 d-none d-lg-block">
+                <a href="https://www.bu.edu/" target="_blank"><img src="imgs/bu.jpg" alt="Boston University"></a>
+            </div>
+            <div class="col-8 edu-text">
+                <div class="school-name d-flex flex-wrap justify-content-between">
+                    <p> <a href="https://www.bu.edu/" target="_blank">BOSTON UNIVERSITY</a> &verbar; Boston, MA</p>
+                    <p>Expected 2024</p>
+                </div>
+                <p> <em>Bachelor of Arts in Computer Science</em> </p>
+                <p>Related Coursework: Data Structure and Algorith, Combinatoric Structures, Introduction to Web
+                    Development, Multivariable Calculus, Linear Algebra, Probability in Computing</p>
+                <p> <em>Cumulative GPA: 4.0</em></p>
+                <button class="transcript-btn"> <a
+                        href="https://drive.google.com/file/d/1HWRWzrjjRTWiHIRkA-YZNxF2D1kIelOO/view?usp=sharing"
+                        target="_blank">Transcript</a></button>
+            </div>
+        </div>
+        <!-- Quincy College -->
+        <div class="row justify-content-center uni-cont">
+            <div class="col-4 d-none d-lg-block">
+                <a href="https://www.quincycollege.edu/" target="_blank"><img src="imgs/quincy-college.jpg"
+                        alt="Quincy College"></a>
+            </div>
+            <div class="col-8 edu-text">
+                <div class="school-name d-flex flex-wrap justify-content-between">
+                    <p> <a href="https://www.quincycollege.edu/" target="_blank">Quincy College</a> &verbar; Quincy, MA
+                    </p>
+                    <p>Feb 2018 - May 2019</p>
+                </div>
+                <p> <em>Associate of Science in Mathematics</em> </p>
+                <p> <em>GPA: 4.0</em></p>
+                <button class="transcript-btn"> <a
+                        href="https://drive.google.com/file/d/1XfOQRfMrfXAC3ROeLVJvaCoyoiTzMPr7/view?usp=sharing"
+                        target="_blank">Transcript</a></button>
+            </div>
+        </div>
+    </div>
 
-    <!-- Thumbnail -->
-    <div id="thumbnail-container">
-        <ul class="thumbnail d-flex flex-wrap" style="padding: 0">
-            <li><img src="imgs/food1.png" alt="food image 1" onmouseover="imgSlider('imgs/food1.png')"></li>
-            <li><img src="imgs/food2.png" alt="food image 2" onmouseover="imgSlider('imgs/food2.png')"></li>
-            <li><img src="imgs/food3.png" alt="food image 3" onmouseover="imgSlider('imgs/food3.png')"></li>
-        </ul>
+    <!-- Projects -->
+    <div id="projects-cont" class="section">
+        <h2>Projects</h2>
+        <div class="container-fluid px-0 single-project-cont">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-md-5 order-md-2">
+                    <a href="index.html" target="_blank"><img class="img-fluid project-img" id="project1-img"
+                            src="imgs/wte-project.jpg" alt="restaurant web app"></a>
+                </div>
+                <div class="col-md-7 project-text order-md-1">
+                    <h3> <a href="index.html">WTE - What/Where to eat?</a> </h3>
+                    <p>A web app suggesting nearby restaurants, cooking recipes and food inspirations to users
+                        using GoogleMap API, embedded Google Search Engine and a live Instagram feed. </p>
+                    <div class="project-info d-flex align-items-center">
+                        <button class="project-btn"><a href="index.html" target="_blank">View Project</a></button>
+                        <a href="https://github.com/trucdg/WTE-project" target="_blank"><i
+                                class="fa-brands fa-github-square project-github"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid px-0 single-project-cont">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-md-5">
+                    <a href="https://cs-people.bu.edu/trucdg/cs103/labs/lab7/lab7-part2-problem2/#" target="_blank"><img
+                            class="img-fluid project-img" id="project2-img" src="imgs/fun-css-project.jpg"
+                            alt="fun css templates applications"></a>
+                </div>
+                <div class="col-md-7 project-text">
+                    <h3> <a href="https://cs-people.bu.edu/trucdg/cs103/labs/lab7/lab7-part2-problem2/#">Fun CSS
+                            Template Applications!</a></h3>
+                    <p>A personal website that utilizes multiple CSS templates with fun loading animations and
+                        impressive graphic effects! </p>
+                    <div class="project-info d-flex align-items-center">
+                        <button class="project-btn"><a
+                                href="https://cs-people.bu.edu/trucdg/cs103/labs/lab7/lab7-part2-problem2/#"
+                                target="_blank">View Project</a></button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid px-0 single-project-cont">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-md-5 order-md-2">
+                    <a href="https://cs-people.bu.edu/trucdg/cs103/labs/lab10/part2/calculator.html"
+                        target="_blank"><img class="img-fluid project-img" id="project3-img"
+                            src="imgs/calculator-project.jpg" alt="an interactive calculator"></a>
+                </div>
+                <div class="col-md-7 project-text order-md-1">
+                    <h3> <a href="https://cs-people.bu.edu/trucdg/cs103/labs/lab10/part2/calculator.html">The Pink
+                            Calc-o-Matic</a> </h3>
+                    <p>An interactive calculator with an animated background that is built with JS.</p>
+                    <div class="project-info d-flex align-items-center">
+                        <button class="project-btn"><a
+                                href="https://cs-people.bu.edu/trucdg/cs103/labs/lab10/part2/calculator.html"
+                                target="_blank">View Project</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Fun Feedback -->
+
+    <div id="feedback-cont" class="section d-none d-lg-block">
+        <h2>Loving My Website?</h2>
+        <p>Let me know how I am doing!</p>
+        <div id="feedback-btn-cont">
+            <button id="amazing-btn" onclick="sendResponse()">Amazing!</button>
+            <button id="meh-btn" onmouseover="mouseOver()">Mehhh...</button>
+        </div>
+        <div id="feedback-response">
+            <p> <em>Thank you for being honest </em> <i class="fa-regular fa-face-laugh-squint"></i>! </p>
+        </div>
     </div>
 
     <!-- Footer -->
-    <footer>
-        <ul>
-            <li>
-                Copyright &copy; 2022 <a href="about.html" id="name" target="_blank">Truc Duong</a>
-            </li>
-            <!-- Break line only visible in xs screen size -->
-            <li><br class="d-sm-none"></li>
-            <li class="social-media">
-                <a href="https://github.com/trucdg" target="_blank"><i class="fa-brands fa-github-square"></i></a>
-            </li>
-            <li class="social-media">
-                <a href="https://www.instagram.com/tructruc0301/" target="_blank"><i
-                        class="fa-brands fa-instagram"></i></a>
-            </li>
-            <li class="social-media">
-                <a href="https://www.facebook.com/tructruc0301" target="_blank"><i
-                        class="fa-brands fa-facebook"></i></a>
-            </li>
-        </ul>
-        <p>Disclaimer: The page uses various resources under <a href="credits.html">C.C licenses.</a></p>
-    </footer>
+    <div class="footer">
+        <div class=" row footer-content">
+            <div class="col-8 footer-section about">
+                <h1 id="logo-text"> Truc Duong</h1>
+                <p>"There are three responses to a piece of design. Yes. No and Wow! <br> Wow is the one I aim for!"
+                    <br> -
+                    Milton
+                    Glaser.
+                </p>
+                <div id="footer-contact">
+                    <p> <i class="fas fa-phone"></i> &nbsp; 626-242-6042 </p>
+                    <p><i class="fas fa-envelope"></i> &nbsp; trucdg@bu.edu</p>
+                </div>
+                <div class="social-media">
+                    <ul>
+                        <li class="social-media">
+                            <a href="https://github.com/trucdg" target="_blank"><i
+                                    class="fa-brands fa-github-square"></i></a>
+                        </li>
+                        <li class="social-media">
+                            <a href="https://www.instagram.com/tructruc0301/" target="_blank"><i
+                                    class="fa-brands fa-instagram"></i></a>
+                        </li>
+                        <li class="social-media">
+                            <a href="https://www.facebook.com/tructruc0301" target="_blank"><i
+                                    class="fa-brands fa-facebook"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-4 footer-section" id="quicklinks">
+                <h2>Quick Links</h2>
+                <br>
+                <ul>
+                    <li><a href="#navbar-container">About</a></li>
+                    <li><a href="#education-cont">Education</a></li>
+                    <li><a href="#projects-cont">Projects</a></li>
+                    <li><a href="#feedback-cont">Feedback</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>Copyright &copy; 2022 <a href="about.html" target="_blank">Truc Duong</a></p>
+        </div>
+
+    </div>
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
@@ -132,7 +277,8 @@
         crossorigin="anonymous"></script>
 
     <!-- External JS -->
-    <script src="script.js"></script>
+    <script src="about.js" type="text/javascript"></script>
+
 </body>
 
 </html>
