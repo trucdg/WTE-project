@@ -66,7 +66,7 @@ header {
     word-spacing: 7px;
 }
 
-button {
+.button {
     letter-spacing: 1.5px;
     border-radius: 1em;
     padding: 0.6em 1.7em;
@@ -75,7 +75,7 @@ button {
     display: inline;
 }
 
-button:hover {
+.button:hover {
     box-shadow: 0 0.5em 0.5em -0.4em #333;
     transform: translateY(-0.3em);
     cursor: pointer;
@@ -85,19 +85,19 @@ button:hover {
     margin-right: 1em;
     background-color: #EE6C4D;
     margin-top: 1em;
+    color: white;
 }
 
-#projects-btn a {
-    color: white;
+#projects-btn:hover {
+    box-shadow: 0 0.5em 0.5em -0.4em #333;
+    transform: translateY(-0.3em);
+    cursor: pointer;
 }
 
 #linkedin-btn {
     background-color: #F9FAFF;
     border: solid 0.5px #EE6C4D;
     margin-top: 1em;
-}
-
-#linkedin-btn a {
     color: #EE6C4D;
 }
 
@@ -168,9 +168,6 @@ button:hover {
     border: solid 1.5px #3D5A80;
     border-radius: 8px;
     padding: 0.5em 1.5em;
-}
-
-.transcript-btn a {
     color: #333;
 }
 
