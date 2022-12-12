@@ -15,3 +15,7 @@ body {
 .emphasized {
     color: #EE6C4D;
 }
+
+a {
+    text-decoration: underline;
+}
